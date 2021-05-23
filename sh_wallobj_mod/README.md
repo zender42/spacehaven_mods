@@ -7,6 +7,6 @@
 
 <P>This requires a modloader to use - it has been tested with Tahvohck's modloader, version 0.9.1. Check the discord for a link to the current version.</P>
 
-<P>To use, either download the <A HREF="sh_wallobj_mod.zip">ZIP file</A> and unzip into your mods folder, or download the individual files from the tree above.</P>
+<P>To use, either download the <A HREF="https://github.com/zender42/spacehaven_mods/blob/main/sh_wallobj_mod/sh_wallobj_mod.zip?raw=true">ZIP file</A> and unzip into your mods folder, or download the individual files from the tree above.</P>
 
 <B>Neither I nor this mod are associated with Bugbyte or Space Haven in any way, other than that it modifies placement options for some objects in the game.</b>
