@@ -1,0 +1,14 @@
+<mod>
+	<name>Wall Objects Mod</name>
+    <description>Removes empty space requirement in front of wall-mounted objects.
+
+This allows placement of object directly in front of wall-mounted devices, including:
+- Wall Power Nodes
+- Wall Thermal Regulators
+- Wall Lights
+	</description>
+	<minimumLoaderVersion>0.0.1</minimumLoaderVersion>
+	<gameVersions>
+		<v>0.12.1</v>
+	</gameVersions>
+</mod>

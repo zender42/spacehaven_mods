@@ -1,0 +1,214 @@
+<data>
+	<Element>
+	<me mid="882" ec="4" costGroup="875" offsetRot="R0" nonSymmetrical="false" alternateY="false">
+			<data>
+				<l type="Object" eid="1" gridOffX="0" gridOffY="0" layer="0">
+					<element id="0" userTogglable="false" renderOnFloor="false" walkGridCost="255" lightValue="None">
+						<definedStates>
+							<l state="InUse" playAnimation="true">
+								<r0 aid="wallPower1F" flx="false"/>
+								<r90 aid="null" flx="false"/>
+								<r180 aid="wallPower1B" flx="false"/>
+								<r270 aid="null" flx="false"/>
+								<wallMountLight skipCenter="false" powerTier="Decorative" color="063819ff">
+									<offset x="0" y="-1"/>
+									<second color="394d40ff" ratio="0.4" dimming="125"/>
+									<flood distance="4" brightness="300"/>
+								</wallMountLight>
+							</l>
+							<l state="NoPowerOrError" playAnimation="true">
+								<r0 aid="wallPower1F" flx="false"/>
+								<r90 aid="null" flx="false"/>
+								<r180 aid="wallPower1B" flx="false"/>
+								<r270 aid="null" flx="false"/>
+								<wallMountLight skipCenter="false" powerTier="None" color="9a1212fe">
+									<offset x="0" y="-1"/>
+									<flood distance="3" brightness="300"/>
+								</wallMountLight>
+							</l>
+						</definedStates>
+						<indicator x="0" y="0" mirX="0" mirY="0" animAsIndicator="false">
+							<storedPowerOnly x="0" y="0" mirX="-17" mirY="9">
+								<r0 aid="wallPower1FIndLight" flx="false"/>
+								<r90 aid="wallPower1FIndLight" flx="true"/>
+								<r180 aid="wallPower1FIndLight" flx="false"/>
+								<r270 aid="wallPower1FIndLight" flx="true"/>
+							</storedPowerOnly>
+						</indicator>
+						<additionaFullLit x="0" y="0" mirX="0" mirY="0" atNoPower="false" atStandby="true" atInuse="true">
+							<r0 aid="wallPowerLights1F" flx="false"/>
+							<r90 aid="null" flx="false"/>
+							<r180 aid="wallPowerLights1B" flx="false"/>
+							<r270 aid="null" flx="false"/>
+						</additionaFullLit>
+						<features addFacilityIcons="false" noPressureDmg="false" normalState="true" produceInNormal="false" inUseState="true">
+							<stateWatchdog autoproduce="false"/>
+							<powerGrid radius="4" capacity="50" maxLinks="3" linkDistance="4" dontUseGuiNotes="false"/>
+							<noiseAndComfort onlyWhenInuse="false" reduceNegative="false">
+								<constantSound>
+									<atStandby auid="4307"/>
+									<atInUse auid="4307"/>
+								</constantSound>
+							</noiseAndComfort>
+						</features>
+						<wallMount type="Upper" bothSides="false"/>
+						<commonPower/>
+					</element>
+				</l>
+			</data>
+			<linked/>
+			<events/>
+			<objectInfo placeInMenu="2" disableRotation="false" disableBuildTest="false" buildInstant="false" disableAirlockTest="false" debugOnly="false" viewMode="Power" systemPoints="0">
+				<cu>
+					<groups>
+						<l rep="875" buildTools="10">
+							<customPrice>
+								<l elementId="1919" howMuch="1"/>
+							</customPrice>
+						</l>
+					</groups>
+				</cu>
+				<name tid="464"/>
+				<desc tid="465"/>
+				<guiIcon aid="build_icon_882"/>
+				<subCat id="1516"/>
+				<restrictions>
+				</restrictions>
+				<difficultyLevel skill="Construction" level="2"/>
+			</objectInfo>
+		</me>
+	<me mid="987" ec="4" costGroup="875" offsetRot="R0" nonSymmetrical="false" alternateY="false">
+			<data>
+				<l type="Object" eid="1" gridOffX="0" gridOffY="0" layer="0">
+					<element id="0" userTogglable="false" renderOnFloor="false" walkGridCost="255" lightValue="None">
+						<definedStates>
+							<l state="InUse" playAnimation="true">
+								<r0 aid="wallHeater1F" flx="false"/>
+								<r90 aid="null" flx="false"/>
+								<r180 aid="wallHeater1B" flx="false"/>
+								<r270 aid="null" flx="false"/>
+								<wallMountLight skipCenter="false" powerTier="Decorative" color="063819ff">
+									<offset x="0" y="-1"/>
+									<second color="394d40ff" ratio="0.4" dimming="125"/>
+									<flood distance="4" brightness="300"/>
+								</wallMountLight>
+							</l>
+							<l state="NoPowerOrError" playAnimation="false">
+								<r0 aid="wallHeater1F" flx="false"/>
+								<r90 aid="null" flx="false"/>
+								<r180 aid="wallHeater1B" flx="false"/>
+								<r270 aid="null" flx="false"/>
+								<wallMountLight skipCenter="false" powerTier="None" color="9a1212fe">
+									<offset x="0" y="-1"/>
+									<flood distance="3" brightness="300"/>
+								</wallMountLight>
+							</l>
+						</definedStates>
+						<additionaFullLit x="0" y="0" mirX="0" mirY="0" atNoPower="false" atStandby="true" atInuse="true">
+							<r0 aid="wallHeaterLights1F" flx="false"/>
+							<r90 aid="null" flx="false"/>
+							<r180 aid="wallHeaterLights1B" flx="false"/>
+							<r270 aid="null" flx="false"/>
+						</additionaFullLit>
+						<features addFacilityIcons="false" noPressureDmg="false" normalState="true" produceInNormal="true" inUseState="true">
+							<produces>
+								<l valuePerSec="15" product="74" usePowerPerSec="1.0" suction="false">
+									<heat type="Controller" keepTemperture="295" minTemp="250" maxTemp="350" heatPower="12"/>
+								</l>
+							</produces>
+							<stateWatchdog autoproduce="false"/>
+							<noiseAndComfort onlyWhenInuse="false" reduceNegative="false">
+								<constantSound>
+									<atStandby auid="4307"/>
+									<atInUse auid="4307"/>
+								</constantSound>
+							</noiseAndComfort>
+						</features>
+						<wallMount type="Upper" bothSides="false"/>
+						<commonPower/>
+					</element>
+				</l>
+			</data>
+			<linked/>
+			<events/>
+			<objectInfo placeInMenu="3" disableRotation="false" disableBuildTest="false" buildInstant="false" disableAirlockTest="false" debugOnly="false" viewMode="Heat" systemPoints="0">
+				<cu>
+					<groups>
+						<l rep="875" buildTools="10">
+							<customPrice>
+								<l elementId="162" howMuch="1"/>
+							</customPrice>
+						</l>
+					</groups>
+				</cu>
+				<name tid="492"/>
+				<desc tid="183"/>
+				<guiIcon aid="build_icon_987"/>
+				<subCat id="1508"/>
+				<restrictions>
+				</restrictions>
+				<difficultyLevel skill="Construction" level="2"/>
+			</objectInfo>
+		</me>
+<me mid="164" ec="4" costGroup="875" offsetRot="R0" nonSymmetrical="false" alternateY="false">
+			<data>
+				<l type="Object" eid="4" gridOffX="0" gridOffY="0" layer="0">
+					<element id="0" userTogglable="false" renderOnFloor="false" walkGridCost="255" lightValue="None">
+						<definedStates>
+							<l state="Standby" playAnimation="false">
+								<r0 aid="wallLightL" flx="false"/>
+								<r90 aid="null" flx="false"/>
+								<r180 aid="wallLightLmirror" flx="false"/>
+								<r270 aid="null" flx="false"/>
+								<wallMountLight skipCenter="false" powerTier="Decorative" color="1a3340fe">
+									<offset x="0" y="-1"/>
+									<second color="545958fe" ratio="0.4" dimming="125"/>
+									<flood distance="6" brightness="200"/>
+									<ray spread="300.0" smoothEdges="true" angle="270" rotate="false" rotatePerSec="0.0" distance="4" brightness="225"/>
+								</wallMountLight>
+							</l>
+							<l state="NoPowerOrError" playAnimation="false">
+								<r0 aid="wallLightL" flx="false"/>
+								<r90 aid="null" flx="false"/>
+								<r180 aid="wallLightLmirror" flx="false"/>
+								<r270 aid="null" flx="false"/>
+								<wallMountLight skipCenter="false" powerTier="None" color="9a1212fe">
+									<flood distance="3" brightness="300"/>
+								</wallMountLight>
+							</l>
+						</definedStates>
+						<additionaFullLit x="0" y="0" mirX="0" mirY="0" atNoPower="false" atStandby="true" atInuse="true">
+							<r0 aid="wallLightLFull" flx="false"/>
+							<r90 aid="null" flx="false"/>
+							<r180 aid="wallLight1-BFull" flx="false"/>
+							<r270 aid="null" flx="false"/>
+						</additionaFullLit>
+						<features addFacilityIcons="true" noPressureDmg="false" normalState="true" produceInNormal="false" inUseState="true">
+							<stateWatchdog autoproduce="false"/>
+						</features>
+						<wallMount type="Upper" bothSides="false"/>
+						<commonPower/>
+					</element>
+				</l>
+			</data>
+			<linked/>
+			<events/>
+			<objectInfo placeInMenu="4" disableRotation="false" disableBuildTest="false" buildInstant="false" disableAirlockTest="false" debugOnly="false" viewMode="Normal" systemPoints="0">
+				<cu>
+					<groups>
+						<l rep="875" buildTools="50">
+							<customPrice/>
+						</l>
+					</groups>
+				</cu>
+				<name tid="175"/>
+				<desc tid="176"/>
+				<guiIcon aid="build_icon_164"/>
+				<subCat id="1506"/>
+				<restrictions>
+				</restrictions>
+				<difficultyLevel skill="Construction" level="1"/>
+			</objectInfo>
+		</me>
+	</Element>
+</data>
