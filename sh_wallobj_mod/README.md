@@ -3,7 +3,7 @@
 
 <P>This allows you to place objects directly on the tile in front of wall power nodes, wall thermal regulators, and wall lights.</P>
 
-<P>This mod was based on the "Better Wall Objects" mod by Joomin. It has been updated for Alpha 12 v0.12.1, and to add wall light support, as I couldn't find any mods that would let me build directly in front of a wall light.</P>
+<P>This mod was inspired by the "Better Wall Objects" mod by Joomin. It essentially does the same thing, just using code from Alpha 12 v0.12.1 version, and with wall light support added. I couldn't find any other mods that would let me build in front of a wall light.</P>
 
 <P>This requires a modloader to use - it has been tested with Tahvohck's modloader, version 0.9.1. Check the discord for a link to the current version.</P>
 
